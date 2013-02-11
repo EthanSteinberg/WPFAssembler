@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFAssembler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Expenseit" Height="500" Width="771">
+
+    <Grid HorizontalAlignment="Left" Height="469" VerticalAlignment="Top" Width="760" Margin="0,0,-418,0">
+        <Button Content="Assemble" HorizontalAlignment="Left" Margin="39,23,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox Name="OutputAssembly" HorizontalAlignment="Left" Height="280" Margin="382,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" AcceptsReturn="True" IsReadOnly="True"/>
+        <Label Content="Assembly Code" HorizontalAlignment="Left" Margin="65,64,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label Content="Binary Output" HorizontalAlignment="Left" Margin="382,64,0,0" VerticalAlignment="Top" Width="250"/>
+        <TextBox Name="SourceAssembly" HorizontalAlignment="Left" Margin="39,95,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="280" Width="250" AcceptsReturn="True"/>
+    </Grid>
+
+</Window>
